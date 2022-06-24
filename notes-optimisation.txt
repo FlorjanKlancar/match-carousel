@@ -1,0 +1,5 @@
+In this case I have used React Redux for global state. I am calling http GET method on your API in useEffect function in App.tsx, 
+then saving response data to global state. I'm using useSelector hook to read data from Redux Store in every MatchCarousel with this approach I'm not 
+calling endpoint for every carousel itself.
+
+Note: in DEV environment useEffect is triggering twice because of React-strict-mode if we build our project call is made only once

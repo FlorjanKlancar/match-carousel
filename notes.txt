@@ -1,0 +1,10 @@
+"axios": "^0.27.2", -> I'm using axios for making http calls
+"react-redux": "^8.0.2", -> I'm using react-redux for global state managing
+"react-responsive-carousel": "^3.2.23", -> I'm using react-responsive-carousel for carousel view
+
+Known Issues:
+    - I think my implementation of filtering matches is not the best, but I was not able to make it more cleaner because I had some issues with finding out
+    response.data which was returned from endpoint. 
+
+    -I would prefer to use NextJS react framework because of: server-side rendering (SSR), API routes, Image/Link components, router...
+    -I would prefer to use Tailwindcss for faster developing responsive design
